@@ -33,7 +33,7 @@ footer .social-media{
 }
 footer .social-media .logo{
     flex: 10%;
-    background: url(/assets/images/main.png);
+    background: url(assets/images/main.png);
     background-size: 100% 100%;
     
 }
