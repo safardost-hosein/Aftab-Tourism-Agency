@@ -7,7 +7,7 @@ nav .navbar{
     border-bottom: 2px solid   var( --color-black-300) ;
 }
 nav .navbar .logo{
-    background: url(/images/main.png);
+    background: url(/assets/images/main.png);
     background-size: 100% 100%;
     flex: 0.1;
 }
@@ -97,11 +97,12 @@ nav .navbar .hamburger-icon i{
 nav .navbar .sideNav{
     position: absolute;
     top:0;
-    right: -170px;
+    right: -100%;
     background-color:var( --color-yellow-400);
     height: 100vh;
     z-index: 1;
     transition: all 0.5s linear;
+    z-index: 5;
 }
 nav .navbar .sideNav  i{
     font-size: var(--title-600-size);

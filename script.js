@@ -13,7 +13,7 @@ function openSideNav() {
 
 
 function closeSideNav() {
-  document.getElementsByClassName('sideNav')[0].style.right = '-400px';
+  document.getElementsByClassName('sideNav')[0].style.right = '-100%';
   document.getElementsByClassName('sideNav')[0].style.width = '0';
 }
 
